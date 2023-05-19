@@ -1,4 +1,3 @@
-package EasyProgram.Recursion;
 
 import java.util.*;
 
