@@ -9,12 +9,12 @@ public class PrimeInRange {
         // taking number from user
         int n1 = sc.nextInt();
         int n2 = sc.nextInt();
-        int count = 2;
         for (int i = n1; i < n2; i++) {
             if (isPrime(i)) {
                 System.out.println(i);
             }
         }
+
     }
 
     public static boolean isPrime(int n) {
