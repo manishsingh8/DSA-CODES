@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.*;
 
-public class Smallest {
+class Smallest {
 
     public static void main() {
         Scanner sc = new Scanner(System.in);
@@ -18,6 +18,7 @@ public class Smallest {
                 smallest = arr[i];
             }
         }
+        System.out.println("Smallest Element is =" + smallest);
     }
 
 }
