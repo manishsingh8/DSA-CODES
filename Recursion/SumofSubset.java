@@ -2,13 +2,14 @@ import java.util.*;
 
 public class SumofSubset {
 
-    public static void sumOfSubset(int arr[], int l, int r, int sum) {
+    public static void sumOfSubset(int arr[], int l, int r, int sum) {// 1 2 3
 
         if (l > r) {
-            System.out.print(sum + " ");
+            System.out.println(sum + " ");
             return;
         }
         sumOfSubset(arr, l + 1, r, sum + arr[l]);
+        System.out.println("The value of L and sum is" + l + " " + sum);
         sumOfSubset(arr, l + 1, r, sum);
     }
 
